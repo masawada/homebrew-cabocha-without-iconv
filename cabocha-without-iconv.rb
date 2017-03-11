@@ -1,14 +1,8 @@
 class CabochaWithoutIconv < Formula
   desc "Yet Another Japanese Dependency Structure Analyzer"
   homepage "https://taku910.github.io/cabocha/"
-  url "https://googledrive.com/host/0B4y35FiV1wh7cGRCUUJHVTNJRnM/cabocha-0.69.tar.bz2"
-  sha256 "9db896d7f9d83fc3ae34908b788ae514ae19531eb89052e25f061232f6165992"
-
-  bottle do
-    sha1 "c6d6a98dedfe7466c454101174b3d5cbc2752f9b" => :yosemite
-    sha1 "de55a785d8dcce5696a36f69b67168c913405259" => :mavericks
-    sha1 "40106c50d68d5bd03941946378679ff490ae679a" => :mountain_lion
-  end
+  url "https://github.com/masawada/cabocha/archive/0.69.tar.gz"
+  sha256 "4630237c0f8db791a1da3f4b2da42c1b2e27fa9257025ec7ad79b7935ebffaa0"
 
   depends_on "crf++"
   depends_on "mecab"
