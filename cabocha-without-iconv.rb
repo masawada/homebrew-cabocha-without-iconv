@@ -4,12 +4,6 @@ class CabochaWithoutIconv < Formula
   url "https://github.com/masawada/cabocha/archive/0.69.tar.gz"
   sha256 "4630237c0f8db791a1da3f4b2da42c1b2e27fa9257025ec7ad79b7935ebffaa0"
 
-  bottle do
-    sha1 "c6d6a98dedfe7466c454101174b3d5cbc2752f9b" => :yosemite
-    sha1 "de55a785d8dcce5696a36f69b67168c913405259" => :mavericks
-    sha1 "40106c50d68d5bd03941946378679ff490ae679a" => :mountain_lion
-  end
-
   depends_on "crf++"
   depends_on "mecab"
 
